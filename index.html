@@ -8,127 +8,148 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
     <style>
-        /*This is the CSS of this project and it mainly contain the class attribute*/
-        .container{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content:space-around;
-            box-sizing: border-box; 
-            border-top: 90px;
-        }
-        #full-logo{
-            width: 290px;
-            padding-top: 10px
-        }
-        nav{
-            padding: 10px;
-            color: #00b39b;
-            gap: 10em;
-            justify-content: space-around;
-        }
-        #logo2{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 40px;
-        }
-        .next{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            box-sizing: border-box;   
-        }
-        .write{
-            box-sizing: border-box;
-            flex: 1;
-            color: #00b39b;  
-        }
-        .remote{            
-            display: flex;                  
-            align-items: center;
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-            gap: 2.5rem;
-            padding: 1.375em 1.25em 0;
-            margin: 3.75rem auto 2.5rem;
-            max-width: 1015px;
-            padding: 0 20px;
-            position: relative;
-            box-sizing: border-box;
-        }
-        .remote1{
-            flex-wrap: wrap;
-            flex-direction: column;
-            border-left: 15px;
-            border-radius: 10px;
-            height: 350px;
-            flex: 2;
-            color: white;
-        }
-        .flex-container {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            flex: 1;
-        }
-        .container {
-            display: flex;
-            padding: 20px;
-            justify-content: space-around;
-        }
-        .container > .item {
-            width: 300px;
-            height: 30px;
-            margin: 20px;
-        }
-        .fifth{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
-        .smart{
-            background: rgb(208,250,244);
-            height: 595px;
-            width: 640px;
-            padding: 20px;
-        }
-        .myguy{
-            display: grid;
-            background: rgb(255,255,255);
-            border-radius: 2px; 
-        }
-        .smart1{
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            padding: 50px;
-            background: rgb(208,250,244);
-        }
-        .biro{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content:space-around;
-            box-sizing: border-box;
-            margin-left: 340px;
-            width: 650px;
-            justify-items: center;            
-        }
-        .paper{
-            height: 341px;
-            width: 311px;
-            background: rgb(255,255,255);
-            margin-top: 20px;
-        }
-        .telephone{
-            display: flex;
-            box-sizing: border-box;
-            background: white;
-        }
-        .earphone{
-            flex: 1;
-            height: 40px;
-            width: 10px;
-        }
+   .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#full-logo {
+    width: 290px;
+    padding-top: 10px;
+}
+
+nav {
+    padding: 10px;
+    color: #00b39b;
+    gap: 10em;
+    justify-content: space-around;
+}
+
+#logo2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+}
+
+.next {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.write {
+    box-sizing: border-box;
+    flex: 1;
+    color: #00b39b;
+}
+
+.remote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.375em 1.25em 0;
+    margin: 3.75rem auto 2.5rem;
+    max-width: 1015px;
+    box-sizing: border-box;
+}
+
+.remote1 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-left: 15px;
+    border-radius: 10px;
+    height: 350px;
+    flex: 2;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.container > .item {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+.fifth {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.smart1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 50px;
+    background: rgb(208, 250, 244);
+}
+
+.myguy {
+    display: grid;
+    background: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+.smart1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+    background: rgb(208, 250, 244);
+}
+
+.biro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1015px;
+}
+
+.paper {
+    height: 341px;
+    width: 311px;
+    background: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.telephone {
+    display: flex;
+    box-sizing: border-box;
+    background: white;
+}
+
+.earphone {
+    flex: 1;
+    height: 40px;
+    width: 10px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    text-align: center;
+}
         
     </style>
 </head>
